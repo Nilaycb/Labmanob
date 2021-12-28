@@ -1,0 +1,25 @@
+*/config/development
+*/logs/log-*.php
+!*/logs/index.html
+*/cache/*
+!*/cache/index.html
+!*/cache/.htaccess
+
+user_guide_src/build/*
+user_guide_src/cilexer/build/*
+user_guide_src/cilexer/dist/*
+user_guide_src/cilexer/pycilexer.egg-info/*
+
+#codeigniter 3
+appdoor/logs/*
+!appdoor/logs/index.html
+!appdoor/logs/.htaccess
+/vendor/
+
+#custom defined
+!assets/temp/index.html
+!assets/temp/qrcodes/index.html
+!assets/temp/qrcodes/affiliate_partners/index.html
+!assets/temp/qrcodes/patients/index.html
+!assets/temp/qrcodes/test_invoices/index.html
+assets/temp/qrcodes/*

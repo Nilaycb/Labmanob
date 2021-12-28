@@ -1,0 +1,28 @@
+﻿#
+#####@@@@@ Packages Info
+#
+#
+#
+###@ Labmanob labdoor v1.1.1-beta.1
+#
+#
+#
+###@@@ PHP Desktop
+###@@ PHP Desktop Chrome 57
+###@ Chrome 57
+###@ php 7.1.3
+###@ Built with Visual Studio 2015
+#
+#
+#
+###@@@ CodeIgniter v3.1.11
+###@@@ jQuery v3.3.1
+###@@@ Uikit v 3.0.0-rc.2
+###@@@ Bootstrap v4.1.1
+###@@@ phpqrcode v1.1.4
+###@@@ Password Compat v1.0.4
+###@@@ Flatpickr v4.5.7
+#
+#
+#
+##########

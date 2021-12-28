@@ -1,0 +1,44 @@
+@font-face { 
+    font-family: 'Orbitron'; 
+    font-style: normal; 
+    font-weight: 500; 
+    src: local('Orbitron-Medium'), 
+         url(../fonts/orbitron/medium/orbitron-medium-webfont.eot), /* IE9 Compat Mode */ 
+         url(../fonts/orbitron/medium/orbitron-medium-webfont.eot?#iefix) format('embedded-opentype'), /* IE6-IE8 */ 
+         url(../fonts/orbitron/medium/orbitron-medium-webfont.woff) format('woff'), /* Pretty Modern Browsers */ 
+         url(../fonts/orbitron/medium/orbitron-medium-webfont.ttf) format('truetype'), /* Safari, Android, iOS */ 
+         url(../fonts/orbitron/medium/orbitron-medium-webfont.svg#Orbitron) format('svg'); /* Legacy iOS */ 
+} 
+
+html { 
+    height: 100%; 
+    margin: 0; 
+    padding: 0; 
+    } 
+
+body { 
+    min-height: 100%; 
+    margin: 0; 
+    padding: 0; 
+    } 
+
+.ds-lollipop { 
+    display: none !important; 
+    } 
+
+#ds-lollipop { 
+    display: none !important; 
+    } 
+
+.gs-dev-name {
+    font-family: 'Orbitron', sans-serif !important;
+    } 
+
+.gs-uk-alert-danger-color {
+    color: #f0506e;
+    } 
+
+#topnav { 
+    z-index: 25; 
+    } 
+
