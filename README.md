@@ -2,6 +2,11 @@
 ## Introducton
 Labmanob is a hospital management & invoice system. This project comprises a set of technologies and frameworks. The core system is based on server-side technologies, however, it can be run with ease in local computers. All necessary packages have been integrated inside the system for a seamless one-click start-up, usage, and experience.
 
+## Features
+1. Can be run offline (can be installed/acts like a native app) or hosted online.
+1. Supports multiple OS environment.
+2. Options to choose from/switch among multiple database choices like MySQL (tested/preferred for online use-case), SQLite (preferred for offline), PostgreSQL, etc.
+
 ## Modules
 1. <a href="https://github.com/Nilaycb/Labmanob/tree/main/labdoor" target="_blank">Labdoor</a> (CodeIgniter)
 1. [PHP Desktop](https://github.com/cztomczak/phpdesktop)
