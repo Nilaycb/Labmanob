@@ -9,7 +9,18 @@ Labmanob is a hospital management & invoice system. This project comprises a set
 1. Supports multiple OS environment.
 2. Options to choose from/switch among multiple database choices like MySQL (tested/preferred for online use-case), SQLite (preferred for offline), PostgreSQL, etc.
 
-## Modules/Packages
+## Modules (Pseudo)
+1. Accounts (User Management)
+1. Patients
+1. Affiliate Partners
+2. Test Informations
+3. Test Invoices
+4. Payments
+5. Reports
+6. Search
+7. Upload (for Image)
+
+## Project Packages
 1. <a href="https://github.com/Nilaycb/Labmanob/tree/main/labdoor" target="_blank">Labdoor</a> (CodeIgniter)
 1. [PHP Desktop](https://github.com/cztomczak/phpdesktop)
 1. **Distribution Packaging:** [Inno Setup Script](../master/Labmanob_dist-cd-inno_setup_script-(vc_redist_x86-post_install).iss) (for Windows)
