@@ -8,6 +8,7 @@ Labmanob is a hospital management & invoice system. This project comprises a set
 1. Can be run offline (can be installed/acts like a native app) or hosted online.
 1. Supports multiple OS environment.
 2. Options to choose from/switch among multiple database choices like MySQL (tested/preferred for online use-case), SQLite (preferred for offline), PostgreSQL, etc.
+3. Uploaded images (via upload module) are encrypted by default
 
 ## Modules (Pseudo)
 1. Accounts (User Management)
