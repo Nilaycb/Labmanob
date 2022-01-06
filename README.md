@@ -27,6 +27,16 @@ Labmanob is a hospital management & invoice system. This project comprises a set
 1. **Distribution Packaging:** [Inno Setup Script](../master/Labmanob_dist-cd-inno_setup_script-(vc_redist_x86-post_install).iss) (for Windows)
 1. **Source Code Encoder Engine:** *will be published...*
 
+## Updating Labmanob (Windows)
+<a href="https://github.com/Nilaycb/Labmanob/tree/main/batch_scripts" target="_blank">batch_scripts</a> directory contains supportive scripts to automate some/most of the labor intensive tasks required for pushing updates. 
+
+To update Labmanob, these steps can be followed:
+  1. ```cd``` to the directory where Labmanob is installed ("**Labmanob**" directory should be listed in the current working directory)
+  2. copy the files "*run_pre_update_setup.bat*" and "*run_post_update_setup.bat*" to the current working directory
+  3. run the file "*run_pre_update_setup.bat*" [ It will create a temp backup folder (if doesn't exist already), will start backing up database (in case of SQLite) and other necessary files ]
+  4. Uninstall Labmanob and install the update version
+  5. Finally, run the file "*run_post_update_setup.bat*" [ It will restore database (in case of SQLite) and other necessary files (logs, uploads, QR codes) ]
+
 ## Support Libraries/Docs
 1. [PHP Desktop](https://github.com/cztomczak/phpdesktop)
 1. **Distribution Packaging:** [Inno Setup](https://github.com/jrsoftware/issrc) (Script-driven App Installer for Windows) / [AppImage](https://appimage.org) (Linux)
