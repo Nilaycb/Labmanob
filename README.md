@@ -28,7 +28,7 @@ Labmanob is a hospital management & invoice system. This project comprises a set
 1. **Source Code Encoder Engine:** *will be published...*
 
 ## Updating Labmanob (Windows)
-<a href="https://github.com/Nilaycb/Labmanob/tree/main/batch_scripts" target="_blank">batch_scripts</a> directory contains supportive scripts to automate some/most of the labor intensive tasks required for pushing updates. 
+<a href="https://github.com/Nilaycb/Labmanob/tree/main/batch_scripts" target="_blank">batch_scripts</a> directory contains supportive scripts to automate some/most of the labor-intensive tasks required for pushing updates. 
 
 To update Labmanob, these steps can be followed:
   1. ```cd``` to the directory where Labmanob is installed ("**Labmanob**" directory should be listed in the current working directory)
