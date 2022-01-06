@@ -73,7 +73,7 @@ echo;
 echo ------------------------------------------------------------------------------
 echo;
 
-if not exist %setup_backup_dir%\%copy_src_dir%\labdoor\appdoor\appfiles\databases\sqlite\medical_db.sqlite (
+if not exist %setup_backup_dir%\%copy_src_dir%\labdoor\appdoor\lmlib\lmdat\lmsq\med.lmsq (
 	echo CAUTION: database error
 ) else (
 	echo INFO: database confirmed

@@ -24,10 +24,10 @@ echo ---------------------------------------------------------------------------
 echo;
 
 rem reverse database
-if exist %setup_backup_dir%\%copy_src_dir%\labdoor\appdoor\appfiles\databases\sqlite\medical_db.sqlite (
+if exist %setup_backup_dir%\%copy_src_dir%\labdoor\appdoor\lmlib\lmdat\lmsq\med.lmsq (
 	echo INFO: database confirmed
 	echo copying: initializing
-	robocopy %setup_backup_dir%\%copy_src_dir%\labdoor\appdoor\appfiles\databases\sqlite\ %copy_src_dir%\labdoor\appdoor\appfiles\databases\sqlite\ medical_db.sqlite /E /IS /ETA /NFL /NDL /NJH /nc /ns
+	robocopy %setup_backup_dir%\%copy_src_dir%\labmanob\labdoor\appdoor\lmlib\lmdat\lmsq\ %copy_src_dir%\labmanob\labdoor\appdoor\lmlib\lmdat\lmsq\ med.lmsq /E /IS /ETA /NFL /NDL /NJH /nc /ns
 	
 	rem /E   : Copy subdirectories, including Empty ones.
 	rem /IS  : Include Same files.
@@ -79,6 +79,70 @@ if exist %setup_backup_dir%\%copy_src_dir%\labdoor\appdoor\logs\ (
 	)
 ) else (
 	echo CAUTION: logs error
+)
+
+echo;
+echo ------------------------------------------------------------------------------
+echo;
+PAUSE
+echo;
+
+rem reverse uploads patients
+if exist %setup_backup_dir%\%copy_src_dir%\labdoor\assets\uploads\patients\ (
+	echo INFO: uploads patients confirmed
+	echo copying: initializing
+	robocopy %setup_backup_dir%\%copy_src_dir%\labdoor\assets\uploads\patients\ %copy_src_dir%\labdoor\assets\uploads\patients\ /E /IS /ETA /NFL /NDL /NJH /nc /ns
+	
+	rem /E   : Copy subdirectories, including Empty ones.
+	rem /IS  : Include Same files.
+	rem /IT  : Include Tweaked files.
+	rem /NFL : No File List - don't log file names.
+	rem /NDL : No Directory List - don't log directory names.
+	rem /NJH : No Job Header.
+	rem /NJS : No Job Summary.
+	rem /NP  : No Progress - don't display percentage copied.
+	rem /NS  : No Size - don't log file sizes.
+	rem /NC  : No Class - don't log file classes.
+
+	if %ERRORLEVEL% LEQ 1 (
+		echo copying: copied successfully
+	) else (
+		echo copying: error level %ERRORLEVEL%
+	)
+) else (
+	echo CAUTION: uploads patients error
+)
+
+echo;
+echo ------------------------------------------------------------------------------
+echo;
+PAUSE
+echo;
+
+rem reverse uploads affiliate_partners
+if exist %setup_backup_dir%\%copy_src_dir%\labdoor\assets\uploads\patients\ (
+	echo INFO: uploads patients confirmed
+	echo copying: initializing
+	robocopy %setup_backup_dir%\%copy_src_dir%\labdoor\assets\uploads\affiliate_partners\ %copy_src_dir%\labdoor\assets\uploads\affiliate_partners\ /E /IS /ETA /NFL /NDL /NJH /nc /ns
+	
+	rem /E   : Copy subdirectories, including Empty ones.
+	rem /IS  : Include Same files.
+	rem /IT  : Include Tweaked files.
+	rem /NFL : No File List - don't log file names.
+	rem /NDL : No Directory List - don't log directory names.
+	rem /NJH : No Job Header.
+	rem /NJS : No Job Summary.
+	rem /NP  : No Progress - don't display percentage copied.
+	rem /NS  : No Size - don't log file sizes.
+	rem /NC  : No Class - don't log file classes.
+
+	if %ERRORLEVEL% LEQ 1 (
+		echo copying: copied successfully
+	) else (
+		echo copying: error level %ERRORLEVEL%
+	)
+) else (
+	echo CAUTION: uploads affiliate_partners error
 )
 
 echo;
