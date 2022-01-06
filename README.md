@@ -2,7 +2,9 @@
 ## Introducton
 Labmanob is a hospital management & invoice system. This project comprises a set of technologies and frameworks. The core system is based on server-side technologies, however, it can be run with ease in local computers. All necessary packages have been integrated inside the system for a seamless one-click start-up, usage, and experience.
 
-![Labmanob Login Panel](https://i.imgur.com/41C2TZz.png)
+| ![Labmanob Login Panel](https://i.imgur.com/41C2TZz.png) |
+| :---: |
+| *Login Panel* |
 
 ## Features
 1. Can be run offline (can be installed/acts like a native app) or hosted online.
