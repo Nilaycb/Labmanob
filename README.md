@@ -29,7 +29,8 @@ Labmanob is a hospital management & invoice system. This project comprises a set
 1. **Distribution Packaging:** [Inno Setup Script](../master/Labmanob_dist-cd-inno_setup_script-(vc_redist_x86-post_install).iss) (for Windows)
 1. **Source Code Encoder Engine:** *will be published...*
 
-## Updating Labmanob (Windows)
+## Updating Labmanob
+### on Windows
 <a href="https://github.com/Nilaycb/Labmanob/tree/main/batch_scripts" target="_blank">batch_scripts</a> directory contains supportive scripts to automate some/most of the labor-intensive tasks required for pushing updates. 
 
 To update Labmanob, these steps can be followed:
